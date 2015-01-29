@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963A20171A7A722D009B76CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A20161A7A722D009B76CF /* AppDelegate.swift */; };
+		963A20191A7A722D009B76CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A20181A7A722D009B76CF /* ViewController.swift */; };
+		963A201C1A7A722D009B76CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963A201A1A7A722D009B76CF /* Main.storyboard */; };
+		963A201E1A7A722D009B76CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963A201D1A7A722D009B76CF /* Images.xcassets */; };
+		963A20211A7A722D009B76CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963A201F1A7A722D009B76CF /* LaunchScreen.xib */; };
+		963A202D1A7A722D009B76CF /* SmartPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A202C1A7A722D009B76CF /* SmartPlannerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963A20271A7A722D009B76CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963A20091A7A722D009B76CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963A20101A7A722D009B76CF;
+			remoteInfo = SmartPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		963A20111A7A722D009B76CF /* SmartPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963A20151A7A722D009B76CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963A20161A7A722D009B76CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963A20181A7A722D009B76CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963A201B1A7A722D009B76CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963A201D1A7A722D009B76CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		963A20201A7A722D009B76CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		963A20261A7A722D009B76CF /* SmartPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		963A202B1A7A722D009B76CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963A202C1A7A722D009B76CF /* SmartPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlannerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963A200E1A7A722D009B76CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963A20231A7A722D009B76CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963A20081A7A722D009B76CF = {
+			isa = PBXGroup;
+			children = (
+				963A20131A7A722D009B76CF /* SmartPlanner */,
+				963A20291A7A722D009B76CF /* SmartPlannerTests */,
+				963A20121A7A722D009B76CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963A20121A7A722D009B76CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963A20111A7A722D009B76CF /* SmartPlanner.app */,
+				963A20261A7A722D009B76CF /* SmartPlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963A20131A7A722D009B76CF /* SmartPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				963A20161A7A722D009B76CF /* AppDelegate.swift */,
+				963A20181A7A722D009B76CF /* ViewController.swift */,
+				963A201A1A7A722D009B76CF /* Main.storyboard */,
+				963A201D1A7A722D009B76CF /* Images.xcassets */,
+				963A201F1A7A722D009B76CF /* LaunchScreen.xib */,
+				963A20141A7A722D009B76CF /* Supporting Files */,
+			);
+			path = SmartPlanner;
+			sourceTree = "<group>";
+		};
+		963A20141A7A722D009B76CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				963A20151A7A722D009B76CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		963A20291A7A722D009B76CF /* SmartPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				963A202C1A7A722D009B76CF /* SmartPlannerTests.swift */,
+				963A202A1A7A722D009B76CF /* Supporting Files */,
+			);
+			path = SmartPlannerTests;
+			sourceTree = "<group>";
+		};
+		963A202A1A7A722D009B76CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				963A202B1A7A722D009B76CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963A20101A7A722D009B76CF /* SmartPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963A20301A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlanner" */;
+			buildPhases = (
+				963A200D1A7A722D009B76CF /* Sources */,
+				963A200E1A7A722D009B76CF /* Frameworks */,
+				963A200F1A7A722D009B76CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartPlanner;
+			productName = SmartPlanner;
+			productReference = 963A20111A7A722D009B76CF /* SmartPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963A20251A7A722D009B76CF /* SmartPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963A20331A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlannerTests" */;
+			buildPhases = (
+				963A20221A7A722D009B76CF /* Sources */,
+				963A20231A7A722D009B76CF /* Frameworks */,
+				963A20241A7A722D009B76CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963A20281A7A722D009B76CF /* PBXTargetDependency */,
+			);
+			name = SmartPlannerTests;
+			productName = SmartPlannerTests;
+			productReference = 963A20261A7A722D009B76CF /* SmartPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963A20091A7A722D009B76CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = SwiftStack;
+				TargetAttributes = {
+					963A20101A7A722D009B76CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					963A20251A7A722D009B76CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 963A20101A7A722D009B76CF;
+					};
+				};
+			};
+			buildConfigurationList = 963A200C1A7A722D009B76CF /* Build configuration list for PBXProject "SmartPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963A20081A7A722D009B76CF;
+			productRefGroup = 963A20121A7A722D009B76CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963A20101A7A722D009B76CF /* SmartPlanner */,
+				963A20251A7A722D009B76CF /* SmartPlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963A200F1A7A722D009B76CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963A201C1A7A722D009B76CF /* Main.storyboard in Resources */,
+				963A20211A7A722D009B76CF /* LaunchScreen.xib in Resources */,
+				963A201E1A7A722D009B76CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963A20241A7A722D009B76CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963A200D1A7A722D009B76CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963A20191A7A722D009B76CF /* ViewController.swift in Sources */,
+				963A20171A7A722D009B76CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963A20221A7A722D009B76CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963A202D1A7A722D009B76CF /* SmartPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963A20281A7A722D009B76CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963A20101A7A722D009B76CF /* SmartPlanner */;
+			targetProxy = 963A20271A7A722D009B76CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963A201A1A7A722D009B76CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963A201B1A7A722D009B76CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963A201F1A7A722D009B76CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963A20201A7A722D009B76CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963A202E1A7A722D009B76CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		963A202F1A7A722D009B76CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963A20311A7A722D009B76CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		963A20321A7A722D009B76CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		963A20341A7A722D009B76CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPlanner.app/SmartPlanner";
+			};
+			name = Debug;
+		};
+		963A20351A7A722D009B76CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPlanner.app/SmartPlanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963A200C1A7A722D009B76CF /* Build configuration list for PBXProject "SmartPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963A202E1A7A722D009B76CF /* Debug */,
+				963A202F1A7A722D009B76CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963A20301A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963A20311A7A722D009B76CF /* Debug */,
+				963A20321A7A722D009B76CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		963A20331A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963A20341A7A722D009B76CF /* Debug */,
+				963A20351A7A722D009B76CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963A20091A7A722D009B76CF /* Project object */;
+}
