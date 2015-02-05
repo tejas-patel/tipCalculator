@@ -13,6 +13,7 @@
 		963A201E1A7A722D009B76CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963A201D1A7A722D009B76CF /* Images.xcassets */; };
 		963A20211A7A722D009B76CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963A201F1A7A722D009B76CF /* LaunchScreen.xib */; };
 		963A202D1A7A722D009B76CF /* SmartPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A202C1A7A722D009B76CF /* SmartPlannerTests.swift */; };
+		96C4D4F31A7C5F8F00336EAC /* TipCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4D4F21A7C5F8F00336EAC /* TipCalc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		963A20111A7A722D009B76CF /* SmartPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963A20111A7A722D009B76CF /* EasyTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963A20151A7A722D009B76CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963A20161A7A722D009B76CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		963A20181A7A722D009B76CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		963A201B1A7A722D009B76CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		963A201D1A7A722D009B76CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		963A20201A7A722D009B76CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		963A20261A7A722D009B76CF /* SmartPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		963A20261A7A722D009B76CF /* EasyTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963A202B1A7A722D009B76CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963A202C1A7A722D009B76CF /* SmartPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlannerTests.swift; sourceTree = "<group>"; };
+		96C4D4F21A7C5F8F00336EAC /* TipCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipCalc.swift; path = ../TipCalc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,8 @@
 		963A20121A7A722D009B76CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				963A20111A7A722D009B76CF /* SmartPlanner.app */,
-				963A20261A7A722D009B76CF /* SmartPlannerTests.xctest */,
+				963A20111A7A722D009B76CF /* EasyTip.app */,
+				963A20261A7A722D009B76CF /* EasyTipTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				963A20161A7A722D009B76CF /* AppDelegate.swift */,
+				96C4D4F21A7C5F8F00336EAC /* TipCalc.swift */,
 				963A20181A7A722D009B76CF /* ViewController.swift */,
 				963A201A1A7A722D009B76CF /* Main.storyboard */,
 				963A201D1A7A722D009B76CF /* Images.xcassets */,
@@ -115,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		963A20101A7A722D009B76CF /* SmartPlanner */ = {
+		963A20101A7A722D009B76CF /* EasyTip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 963A20301A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlanner" */;
+			buildConfigurationList = 963A20301A7A722D009B76CF /* Build configuration list for PBXNativeTarget "EasyTip" */;
 			buildPhases = (
 				963A200D1A7A722D009B76CF /* Sources */,
 				963A200E1A7A722D009B76CF /* Frameworks */,
@@ -127,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = SmartPlanner;
+			name = EasyTip;
 			productName = SmartPlanner;
-			productReference = 963A20111A7A722D009B76CF /* SmartPlanner.app */;
+			productReference = 963A20111A7A722D009B76CF /* EasyTip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		963A20251A7A722D009B76CF /* SmartPlannerTests */ = {
+		963A20251A7A722D009B76CF /* EasyTipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 963A20331A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlannerTests" */;
+			buildConfigurationList = 963A20331A7A722D009B76CF /* Build configuration list for PBXNativeTarget "EasyTipTests" */;
 			buildPhases = (
 				963A20221A7A722D009B76CF /* Sources */,
 				963A20231A7A722D009B76CF /* Frameworks */,
@@ -145,9 +148,9 @@
 			dependencies = (
 				963A20281A7A722D009B76CF /* PBXTargetDependency */,
 			);
-			name = SmartPlannerTests;
+			name = EasyTipTests;
 			productName = SmartPlannerTests;
-			productReference = 963A20261A7A722D009B76CF /* SmartPlannerTests.xctest */;
+			productReference = 963A20261A7A722D009B76CF /* EasyTipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 963A200C1A7A722D009B76CF /* Build configuration list for PBXProject "SmartPlanner" */;
+			buildConfigurationList = 963A200C1A7A722D009B76CF /* Build configuration list for PBXProject "EasyTip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				963A20101A7A722D009B76CF /* SmartPlanner */,
-				963A20251A7A722D009B76CF /* SmartPlannerTests */,
+				963A20101A7A722D009B76CF /* EasyTip */,
+				963A20251A7A722D009B76CF /* EasyTipTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963A20191A7A722D009B76CF /* ViewController.swift in Sources */,
+				96C4D4F31A7C5F8F00336EAC /* TipCalc.swift in Sources */,
 				963A20171A7A722D009B76CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +234,7 @@
 /* Begin PBXTargetDependency section */
 		963A20281A7A722D009B76CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 963A20101A7A722D009B76CF /* SmartPlanner */;
+			target = 963A20101A7A722D009B76CF /* EasyTip */;
 			targetProxy = 963A20271A7A722D009B76CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,7 +342,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmartPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EasyTip;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,7 +353,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmartPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EasyTip;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -366,7 +372,7 @@
 				);
 				INFOPLIST_FILE = SmartPlannerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EasyTipTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPlanner.app/SmartPlanner";
 			};
 			name = Debug;
@@ -381,7 +387,7 @@
 				);
 				INFOPLIST_FILE = SmartPlannerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EasyTipTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPlanner.app/SmartPlanner";
 			};
 			name = Release;
@@ -389,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		963A200C1A7A722D009B76CF /* Build configuration list for PBXProject "SmartPlanner" */ = {
+		963A200C1A7A722D009B76CF /* Build configuration list for PBXProject "EasyTip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				963A202E1A7A722D009B76CF /* Debug */,
@@ -398,21 +404,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		963A20301A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlanner" */ = {
+		963A20301A7A722D009B76CF /* Build configuration list for PBXNativeTarget "EasyTip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				963A20311A7A722D009B76CF /* Debug */,
 				963A20321A7A722D009B76CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		963A20331A7A722D009B76CF /* Build configuration list for PBXNativeTarget "SmartPlannerTests" */ = {
+		963A20331A7A722D009B76CF /* Build configuration list for PBXNativeTarget "EasyTipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				963A20341A7A722D009B76CF /* Debug */,
 				963A20351A7A722D009B76CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
